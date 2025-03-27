@@ -1,4 +1,27 @@
-/* src/components/Dashboard.css */
+
+.dashboard {
+  text-align: center;
+  padding: 20px;
+}
+
+.add-movie-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* src/components/Dashboard.css
 
 .dashboard {
   padding: 20px;
@@ -28,4 +51,4 @@
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-}
+} */
